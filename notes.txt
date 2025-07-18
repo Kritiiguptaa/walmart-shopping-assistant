@@ -1,0 +1,29 @@
+npm install express axios dotenv
+
+Why these?
+express: Web server
+axios: Call OpenAI API
+dotenv: Securely store your API key
+
+LangChain is a powerful framework for building applications that use language models like GPT (OpenAI), Claude, or local LLMs.
+
+🔍 In LangChain, llm is:(Large Language Model)
+An instance of a language model (like OpenAI(), ChatOpenAI(), HuggingFaceHub(), etc.)
+The brain that takes your prompt and generates a response
+
+from langchain_openai import OpenAI
+✅ This imports the OpenAI LLM wrapper — so you can send prompts to GPT-3.5 or GPT-4 using LangChain.
+
+from langchain_core.prompts import ChatPromptTemplate
+✅ This lets you create prompt templates with variables.
+Example:
+template = ChatPromptTemplate.from_template("What is a good name for a {product}?")
+
+from langchain_core.output_parsers import StrOutputParser
+✅ This converts the raw LLM response into a clean string you can print, return, or process further.
+
+🔍 What is LangSmith?
+LangSmith is LangChain’s observability platform.
+It helps you track, debug, and optimize your LLM apps.
+Think of it as:
+🛠️ Postman + Datadog + Replay debugger — but for LangChain apps.
