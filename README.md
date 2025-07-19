@@ -25,6 +25,7 @@ Walmart receives millions of queries every day. Traditional search bars lack per
 - Automation of general customer service queries
 
 ## 🎥 Demo
+https://walmart-shopping-assistant-ipqwfbfelclnvfsbcfbaau.streamlit.app/
 https://www.youtube.com/watch?v=8KmgYjCvMjs
 
 ## 📂 How to Run Locally
