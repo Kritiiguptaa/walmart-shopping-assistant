@@ -26,7 +26,6 @@ Walmart receives millions of queries every day. Traditional search bars lack per
 
 ## 🎥 Demo
 live link: https://walmart-shopping-assistant-ipqwfbfelclnvfsbcfbaau.streamlit.app/
-Youtube Link: https://www.youtube.com/watch?v=8KmgYjCvMjs
 
 ## 📂 How to Run Locally
 ```bash
